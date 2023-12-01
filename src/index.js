@@ -2,12 +2,10 @@ import { editableFooterColumnsReducer } from './reducers';
 import FooterConfigurationWidget from './widget/FooterConfigurationWidget';
 import { getEditableFooterColumns } from './actions';
 import { getItemsByPath } from './utils';
-import FooterColumns from './components/FooterColumns';
 
 export {
   FooterConfigurationWidget,
   getEditableFooterColumns,
-  FooterColumns,
   getItemsByPath,
 };
 
