@@ -5,6 +5,7 @@ import { getItemsByPath } from './utils';
 
 export { FooterConfigurationWidget, getEditableFooterColumns, getItemsByPath };
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (config) => {
   config.widgets.id = {
     ...config.widgets.id,
