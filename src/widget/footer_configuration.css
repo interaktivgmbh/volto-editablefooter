@@ -45,14 +45,15 @@
 .footer-configuration-widget .ui.menu.footer-items-menu .item,
 .cms-ui .footer-configuration-widget .ui.menu.footer-items-menu .item {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin: 0px 0px 0px 1px !important;
-  width: 100%;
   cursor: pointer;
 }
+
 .footer-configuration-widget .ui.menu.footer-items-menu .item:hover,
 .cms-ui .footer-configuration-widget .ui.menu.footer-items-menu .item:hover {
   background-color: #fafafa !important;
