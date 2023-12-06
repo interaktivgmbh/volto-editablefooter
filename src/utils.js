@@ -1,4 +1,3 @@
-
 export function getItemsByPath(items, pathname) {
   let rootPathConfig = null;
   const itemsByPath = items?.reduce((acc, val) => {

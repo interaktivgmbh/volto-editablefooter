@@ -3,11 +3,7 @@ import FooterConfigurationWidget from './widget/FooterConfigurationWidget';
 import { getEditableFooterColumns } from './actions';
 import { getItemsByPath } from './utils';
 
-export {
-  FooterConfigurationWidget,
-  getEditableFooterColumns,
-  getItemsByPath,
-};
+export { FooterConfigurationWidget, getEditableFooterColumns, getItemsByPath };
 
 export default (config) => {
   config.widgets.id = {
